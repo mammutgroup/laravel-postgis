@@ -1,10 +1,10 @@
 {
-    "name": "phaza/laravel-postgis",
-    "description": "Postgis extensions for laravel. Aims to make it easy to work with geometries from laravel models",
+    "name": "mammutgroup/laravel-spatial",
+    "description": "Mysql Geometry extensions for laravel. Aims to make it easy to work with geometries from laravel models",
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/phaza/laravel-postgres.git"
+            "url": "https://github.com/mammutgroup/laravel-spatial.git"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phaza\\LaravelPostgis\\": "src/"
+            "Mammutgroup\\LaravelPostgis\\": "src/"
         }
     },
     "autoload-dev": {
@@ -40,6 +40,15 @@
         {
             "name": "Nicholas Barrett",
             "email": "njbarrett7@gmail.com"
+        },
+        {
+            "name": "MohammadReza Honarkhah",
+            "email": "m.honar@gmail.com"
+        
+        },
+        {
+            "name": "Sayad Azami",
+            "email": "sayadaazami@gmail.com"
         }
     ]
 }
