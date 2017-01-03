@@ -1,4 +1,4 @@
-Laravel postgis extension
+Laravel Mysql Geometry extension
 =========================
 
 [![Build Status](https://travis-ci.org/njbarrett/laravel-postgis.svg?branch=master)](https://travis-ci.org/njbarrett/laravel-postgis.svg?branch=master)
