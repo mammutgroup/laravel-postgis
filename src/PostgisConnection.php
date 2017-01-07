@@ -1,6 +1,7 @@
-<?php namespace Phaza\LaravelPostgis;
+<?php namespace Mammutgroup\LaravelPostgis;
 
-class PostgisConnection extends \Bosnadev\Database\PostgresConnection
+
+class PostgisConnection extends \Bosnadev\Database\MysqlConnection
 {
     /**
      * Get the default schema grammar instance.
@@ -20,5 +21,10 @@ class PostgisConnection extends \Bosnadev\Database\PostgresConnection
         }
 
         return new Schema\Builder($this);
+    }
+
+    protected function getDefaultQueryGrammar()
+    {
+        return $this->withTablePrefix(new \Illuminate\Database\Query\Grammars\MySqlGrammar);
     }
 }

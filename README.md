@@ -24,7 +24,7 @@ Use 3.* for Laravel 5.2.*
 
 Next add the DatabaseServiceProvider to your `config/app.php` file.
 
-    'Phaza\LaravelPostgis\DatabaseServiceProvider',
+    'Mammutgroup\LaravelPostgis\DatabaseServiceProvider',
 
 That's all.
 
@@ -52,7 +52,7 @@ Open the created migrations with your editor.
 
 ```PHP
 use Illuminate\Database\Migrations\Migration;
-use Phaza\LaravelPostgis\Schema\Blueprint;
+use Mammutgroup\LaravelPostgis\Schema\Blueprint;
 
 class CreateLocationsTable extends Migration {
 
@@ -111,8 +111,8 @@ what attributes/columns on your model are to be considered geometry objects.
 
 ```PHP
 use Illuminate\Database\Eloquent\Model;
-use Phaza\LaravelPostgis\Eloquent\PostgisTrait;
-use Phaza\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Eloquent\PostgisTrait;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
 
 class Location extends Model
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Phaza\LaravelPostgis\Geometries\Point;
-use Phaza\LaravelPostgis\Geometries\MultiPoint;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\MultiPoint;
 
 class MultiPointTest extends BaseTestCase
 {

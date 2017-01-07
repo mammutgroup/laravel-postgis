@@ -1,9 +1,9 @@
 <?php
 
-use Phaza\LaravelPostgis\Geometries\LineString;
-use Phaza\LaravelPostgis\Geometries\MultiPolygon;
-use Phaza\LaravelPostgis\Geometries\Point;
-use Phaza\LaravelPostgis\Geometries\Polygon;
+use Mammutgroup\LaravelPostgis\Geometries\LineString;
+use Mammutgroup\LaravelPostgis\Geometries\MultiPolygon;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\Polygon;
 
 class MultiPolygonTest extends BaseTestCase
 {

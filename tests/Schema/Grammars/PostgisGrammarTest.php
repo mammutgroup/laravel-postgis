@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Connection;
-use Phaza\LaravelPostgis\PostgisConnection;
-use Phaza\LaravelPostgis\Schema\Blueprint;
-use Phaza\LaravelPostgis\Schema\Grammars\PostgisGrammar;
+use Mammutgroup\LaravelPostgis\PostgisConnection;
+use Mammutgroup\LaravelPostgis\Schema\Blueprint;
+use Mammutgroup\LaravelPostgis\Schema\Grammars\PostgisGrammar;
 
 class PostgisGrammarBaseTest extends BaseTestCase
 {

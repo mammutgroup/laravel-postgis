@@ -1,7 +1,7 @@
 <?php
 
-use Phaza\LaravelPostgis\Geometries\LineString;
-use Phaza\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\LineString;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
 
 class LineStringTest extends BaseTestCase
 {

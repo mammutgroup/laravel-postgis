@@ -1,13 +1,13 @@
 <?php
 
-use Phaza\LaravelPostgis\Geometries\Geometry;
-use Phaza\LaravelPostgis\Geometries\GeometryCollection;
-use Phaza\LaravelPostgis\Geometries\LineString;
-use Phaza\LaravelPostgis\Geometries\MultiLineString;
-use Phaza\LaravelPostgis\Geometries\MultiPoint;
-use Phaza\LaravelPostgis\Geometries\MultiPolygon;
-use Phaza\LaravelPostgis\Geometries\Point;
-use Phaza\LaravelPostgis\Geometries\Polygon;
+use Mammutgroup\LaravelPostgis\Geometries\Geometry;
+use Mammutgroup\LaravelPostgis\Geometries\GeometryCollection;
+use Mammutgroup\LaravelPostgis\Geometries\LineString;
+use Mammutgroup\LaravelPostgis\Geometries\MultiLineString;
+use Mammutgroup\LaravelPostgis\Geometries\MultiPoint;
+use Mammutgroup\LaravelPostgis\Geometries\MultiPolygon;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\Polygon;
 
 class GeometryTest extends BaseTestCase
 {

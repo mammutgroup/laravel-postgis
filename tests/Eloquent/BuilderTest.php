@@ -5,11 +5,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Database\Query\Expression;
 use Mockery as m;
-use Phaza\LaravelPostgis\Eloquent\Builder;
-use Phaza\LaravelPostgis\Eloquent\PostgisTrait;
-use Phaza\LaravelPostgis\Geometries\LineString;
-use Phaza\LaravelPostgis\Geometries\Point;
-use Phaza\LaravelPostgis\Geometries\Polygon;
+use Mammutgroup\LaravelPostgis\Eloquent\Builder;
+use Mammutgroup\LaravelPostgis\Eloquent\PostgisTrait;
+use Mammutgroup\LaravelPostgis\Geometries\LineString;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\Polygon;
 
 class BuilderTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Phaza\LaravelPostgis\Exceptions;
+<?php namespace Mammutgroup\LaravelPostgis\Exceptions;
 
 use RuntimeException;
 

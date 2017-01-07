@@ -1,10 +1,10 @@
-<?php namespace Phaza\LaravelPostgis\Eloquent;
+<?php namespace Mammutgroup\LaravelPostgis\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Support\Arr;
-use Phaza\LaravelPostgis\Exceptions\PostgisFieldsNotDefinedException;
-use Phaza\LaravelPostgis\Geometries\Geometry;
-use Phaza\LaravelPostgis\Geometries\GeometryInterface;
+use Mammutgroup\LaravelPostgis\Exceptions\PostgisFieldsNotDefinedException;
+use Mammutgroup\LaravelPostgis\Geometries\Geometry;
+use Mammutgroup\LaravelPostgis\Geometries\GeometryInterface;
 
 trait PostgisTrait
 {
@@ -14,7 +14,7 @@ trait PostgisTrait
      * Create a new Eloquent query builder for the model.
      *
      * @param  \Illuminate\Database\Query\Builder $query
-     * @return \Phaza\LaravelPostgis\Eloquent\Builder
+     * @return \Mammutgroup\LaravelPostgis\Eloquent\Builder
      */
     public function newEloquentBuilder($query)
     {

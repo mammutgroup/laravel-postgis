@@ -1,7 +1,7 @@
 <?php
 
-use Phaza\LaravelPostgis\PostgisConnection;
-use Phaza\LaravelPostgis\Schema\Builder;
+use Mammutgroup\LaravelPostgis\PostgisConnection;
+use Mammutgroup\LaravelPostgis\Schema\Builder;
 use Stubs\PDOStub;
 
 class PostgisConnectionTest extends PHPUnit_Framework_TestCase

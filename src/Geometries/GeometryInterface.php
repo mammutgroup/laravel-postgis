@@ -1,4 +1,4 @@
-<?php namespace Phaza\LaravelPostgis\Geometries;
+<?php namespace Mammutgroup\LaravelPostgis\Geometries;
 
 interface GeometryInterface
 {

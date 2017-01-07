@@ -1,12 +1,12 @@
-<?php namespace Phaza\LaravelPostgis;
+<?php namespace Mammutgroup\LaravelPostgis;
 
 use Illuminate\Database\DatabaseManager;
-use Phaza\LaravelPostgis\Connectors\ConnectionFactory;
+use Mammutgroup\LaravelPostgis\Connectors\ConnectionFactory;
 use Bosnadev\Database\DatabaseServiceProvider as PostgresDatabaseServiceProvider;
 
 /**
  * Class DatabaseServiceProvider
- * @package Phaza\LaravelPostgis
+ * @package Mammutgroup\LaravelPostgis
  */
 class DatabaseServiceProvider extends PostgresDatabaseServiceProvider
 {

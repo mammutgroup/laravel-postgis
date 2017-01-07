@@ -1,6 +1,6 @@
 <?php
 
-use Phaza\LaravelPostgis\Geometries\Point;
+use Mammutgroup\LaravelPostgis\Geometries\Point;
 
 class PointTest extends BaseTestCase
 {
